@@ -1,0 +1,11 @@
+<App Theme="Basic" Background="#eeeeeeff">
+  <StatusBarBackground Dock="Top" />
+  <StackPanel Alignment="VerticalCenter">
+    <Circle Width="100" Height="100" Margin="0,0,0,50">
+      <ImageFill File="Assets/luigi.jpg" />
+    </Circle>
+    <TextInput PlaceholderText="Email" PlaceholderColor="#999" Width="80%"/>
+    <TextInput PlaceholderText="Phone number" PlaceholderColor="#999" Width="80%"/>
+    <Button Text="Done" Width="80%" Margin="0,20,0,0" Alignment="HorizontalCenter" />
+  </StackPanel>
+</App>
